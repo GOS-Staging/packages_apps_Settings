@@ -21,6 +21,15 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:icon="@drawable/ic_beyond_ordinary"
+        android:key="top_level_beyond_ordinary"
+        android:title="@string/beyond_dashboard_title"
+        android:summary="@string/build_tweaks_summary_title"
+        android:order="-160"
+        android:fragment="com.beyond.ordinary.BeyondDashboard"
+        settings:controller="com.beyond.ordinary.TopLevelExtensionsEntryPreferenceController" />
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"

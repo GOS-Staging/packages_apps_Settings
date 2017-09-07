@@ -5163,6 +5163,20 @@
             android:permission="android.permission.NETWORK_SETTINGS">
         </activity>
 
+        <!-- BeyondOrdinary additions -->
+        <activity android:name=".Settings$BeyondOrdinarySettingsActivity"
+                  android:label="@string/beyond_dashboard_title"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.beyond.ordinary.BeyondDashboard"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

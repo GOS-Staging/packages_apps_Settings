@@ -55,6 +55,7 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
+        "BeyondOrdinary/src/**/*.java",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
@@ -64,7 +65,11 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "BeyondOrdinary/res",
     ],
+
+    aaptflags: ["--extra-packages com.beyond.ordinary"],
+
     static_libs: [
         // External dependencies
         "androidx.navigation_navigation-fragment-ktx",
