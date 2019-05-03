@@ -493,4 +493,7 @@ public class Settings extends SettingsActivity {
 
     // BeyondOrdinary Additions.
     public static class BeyondOrdinarySettingsActivity extends SettingsActivity {}
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
