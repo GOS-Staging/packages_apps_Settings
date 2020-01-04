@@ -66,6 +66,7 @@ android_library {
         "res-export", // for external usage
         "res-product",
         "BeyondOrdinary/res",
+        "TouchGestures/res",
     ],
 
     aaptflags: ["--extra-packages com.beyond.ordinary"],
