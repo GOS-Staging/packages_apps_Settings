@@ -139,6 +139,9 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- Navbar category -->
+    <string name="navbar_category">Navigation bar</string>
+
     <!-- 3-Button navigation settings -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
@@ -151,6 +154,10 @@
     <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
     <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
 
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
