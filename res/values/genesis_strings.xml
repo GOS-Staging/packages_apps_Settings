@@ -174,8 +174,13 @@
     <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
 
     <!-- Private DNS -->
+    <!-- AdGuard DNS Option -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <!-- Cloudflare DNS Option -->
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
-    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
+    <!-- AdGuard DNS hostname -->
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+    <!-- Cloudflare DNS hostname -->
     <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
 
     <!-- Refresh rate -->
