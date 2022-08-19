@@ -139,6 +139,10 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- 3-Button navigation settings -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
