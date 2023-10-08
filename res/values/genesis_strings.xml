@@ -164,6 +164,9 @@
     <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
     <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
 
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 
