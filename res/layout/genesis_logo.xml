@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_width="match_parent"> 
+	<ImageView android:src="@drawable/ic_genesis"
+	    android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+	    android:layout_width="match_parent"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+	    android:layout_height="match_parent"/>
+</LinearLayout>
